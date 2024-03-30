@@ -4,7 +4,7 @@
 
 :root{
     font-size: 16px;
-    background-color: hsl(0, 0%, 100%);
+    background-color: hsl(30, 54%, 90%);
     /* PRIMARY COLORS */
     --color-main-01: hsl(14, 45%, 36%); /*Nutmeg*/
     --color-main-02: hsl(332, 51%, 32%); /*Dark Raspberry*/
@@ -22,10 +22,18 @@
     --fw-normal: 600;
     --fw-bold: 700;   
 }
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 strong{
     font-weight: var(--fw-normal);
 }
 
+.content{
+    background-color: var(--color-white-01);
+}
 .header__image{
     width: 100%;
 }
@@ -49,7 +57,7 @@ strong{
     background-color: var(--color-white-02);
     padding: 24px;
     border-radius: 8px;
-    max-width: 310px;
+    max-width: 100%;
 }
 .prep-info__title{
     font-family: var(--body);
@@ -142,16 +150,28 @@ strong{
     color: var(--color-main-01);
     font-weight: var(--fw-bold);
 }
-
 .attribution{
     font-family: var(--body);
     color: var(--color-main-01);
 }
 
-
 /* Desktop */
-@media (max-width: 1440px){
-    
+@media (min-width: 376px){
+    .content{
+        max-width: 738px;
+        border-radius: 32px;
+        /* margin: 120px 0; */
+    }
+    .header{
+        padding: 32px 32px 0 32px;
+    }
+    .header__image{
+        border-radius: 16px;
+    }
+    .nutrition__table-column--title{
+        text-align: left;
+        padding-left: 2em;
+    }
 }
 /* MOBILE */
 @media (max-width: 375px){
