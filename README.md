@@ -21,8 +21,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 The challenge is to build out this recipe page and get it looking as close to the design as possible using only HTML & CSS. The design must be mobile-friendly as well.
 
 ### Screenshot
-
-[./assets/images/recipe-desktop-screenshot.jpeg]
+![recipe-desktop-screenshot](https://github.com/bruno-aviles/simple_omelette_recipe/assets/88996459/0b659a95-725e-478f-b53b-6e7b5324205e)
 
 ### Links
 - Live Site URL: [https://bruno-aviles.github.io/simple_omelette_recipe/]
