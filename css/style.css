@@ -152,7 +152,9 @@ strong{
 }
 .attribution{
     font-family: var(--body);
+    font-size: 11px;
     color: var(--color-main-01);
+    text-align: center;
 }
 
 /* Desktop */
